@@ -1,0 +1,36 @@
+body {
+    font-family: fantasy;
+    font-size: medium;
+    color: maroon;
+    background-color: #edd0c8;
+}
+a:link {
+    color: goldenrod;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:link:visited {
+    color: goldenrod;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:link:hover {
+    color: goldenrod;
+    background-color: transparent;
+    text-decoration: underline;
+    font-style: italic;
+}
+a:link:active {
+    color: goldenrod;
+    background-color: transparent;
+    font-style: italic;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#latest p, #latest h3 {
+    text-align: center;
+}
